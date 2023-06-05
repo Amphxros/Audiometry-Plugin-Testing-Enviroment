@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizaraTelemetry", "WizaraTelemetry\WizaraTelemetry.csproj", "{E3B19E39-4293-4742-B00A-7E04442B32F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testeo", "Testeo\Testeo.csproj", "{E41E41E6-4554-4806-8CC4-8114513B62D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3B19E39-4293-4742-B00A-7E04442B32F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B19E39-4293-4742-B00A-7E04442B32F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B19E39-4293-4742-B00A-7E04442B32F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B19E39-4293-4742-B00A-7E04442B32F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41E41E6-4554-4806-8CC4-8114513B62D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41E41E6-4554-4806-8CC4-8114513B62D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41E41E6-4554-4806-8CC4-8114513B62D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41E41E6-4554-4806-8CC4-8114513B62D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {729CBA0F-50C8-4156-B8DC-5B8FDB77C9D5}
+	EndGlobalSection
+EndGlobal
