@@ -1,2 +1,0 @@
-# WizaraTelemetry
-Telemetry system 
