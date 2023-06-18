@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d0373c58-3369-4858-8674-2390a91b67e7}">
+		<property name="assetPath">
+			<value>Weapons/Weapon_Cooling.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>5.4965208333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6aea8db3-99fd-48dc-b2d1-5eba1b891df6}</destination>
+		</relationship>
+	</object>
+</objects>
