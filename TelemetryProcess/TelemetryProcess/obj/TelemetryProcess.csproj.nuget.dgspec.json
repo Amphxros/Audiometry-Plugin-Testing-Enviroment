@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\Desktop\\TelemetryProcess\\TelemetryProcess\\TelemetryProcess.csproj": {}
+    "C:\\Users\\Daniel\\Desktop\\repos\\UAJ-Proyecto-final\\TelemetryProcess\\TelemetryProcess\\TelemetryProcess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\Desktop\\TelemetryProcess\\TelemetryProcess\\TelemetryProcess.csproj": {
+    "C:\\Users\\Daniel\\Desktop\\repos\\UAJ-Proyecto-final\\TelemetryProcess\\TelemetryProcess\\TelemetryProcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\TelemetryProcess\\TelemetryProcess\\TelemetryProcess.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\repos\\UAJ-Proyecto-final\\TelemetryProcess\\TelemetryProcess\\TelemetryProcess.csproj",
         "projectName": "TelemetryProcess",
-        "projectPath": "C:\\Users\\Daniel\\Desktop\\TelemetryProcess\\TelemetryProcess\\TelemetryProcess.csproj",
+        "projectPath": "C:\\Users\\Daniel\\Desktop\\repos\\UAJ-Proyecto-final\\TelemetryProcess\\TelemetryProcess\\TelemetryProcess.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Desktop\\TelemetryProcess\\TelemetryProcess\\obj\\",
+        "outputPath": "C:\\Users\\Daniel\\Desktop\\repos\\UAJ-Proyecto-final\\TelemetryProcess\\TelemetryProcess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
