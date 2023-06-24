@@ -20,7 +20,7 @@ namespace Telemetry.Events
             _timeStamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
              string evType=((EventType)(_eventId)).ToString(); //casts the enum to string to be used as a description of the event
             _data.Add("Event", evType);
-            _data.Add("TimeStamp", _timeStamp);
+            //_data.Add("TimeStamp", _timeStamp);
    
     }
         public Int32 getEvent()
