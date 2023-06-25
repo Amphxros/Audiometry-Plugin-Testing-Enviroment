@@ -47,7 +47,8 @@ public class HearingTest : MonoBehaviour
 
     public void Continue()
     {
-        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+        string scene = "MainScene";
+        SceneManager.LoadScene(scene LoadSceneMode.Single);
     }
      
 }
