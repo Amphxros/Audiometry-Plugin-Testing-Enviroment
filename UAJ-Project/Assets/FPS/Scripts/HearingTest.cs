@@ -11,6 +11,7 @@ public class HearingTest : MonoBehaviour
     public AudioSource[] go;
 
     public Slider slider;
+    public string scene = "MainScene";
 
     public void SetFrequency(float _frequency)
     {
@@ -47,8 +48,8 @@ public class HearingTest : MonoBehaviour
 
     public void Continue()
     {
-        string scene = "MainScene";
-        SceneManager.LoadScene(scene LoadSceneMode.Single);
+        //string scene = "MainScene";
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
      
 }
