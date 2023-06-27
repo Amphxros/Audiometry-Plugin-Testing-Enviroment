@@ -181,7 +181,7 @@ MonoBehaviour:
   - {fileID: 6104096765092005263}
   - {fileID: 1407167163009738010}
   - {fileID: 8934028655093144013}
-  OnDetectSfx: {fileID: 8300000, guid: 25722734eeccba042a18e26e376ca542, type: 3}
+  OnDetectSfx: {fileID: 8300000, guid: 996ce0095804aaf46a47eae105254dab, type: 3}
   MovementSound: {fileID: 0}
   PitchDistortionMovementSpeed:
     Min: 1
@@ -782,10 +782,10 @@ MonoBehaviour:
     CrosshairColor: {r: 0, g: 0, b: 0, a: 0}
   WeaponRoot: {fileID: 8815063736924141185}
   WeaponMuzzle: {fileID: 2096565386399891227}
-  ShootType: 1
+  ShootType: 2
   ProjectilePrefab: {fileID: 8924682559891268397, guid: ec753d54f333bb944b8b04884ad63828,
     type: 3}
-  DelayBetweenShots: 0.8
+  DelayBetweenShots: 1.5
   BulletSpreadAngle: 0
   BulletsPerShot: 1
   RecoilForce: 1
@@ -801,7 +801,7 @@ MonoBehaviour:
   AmmoReloadRate: 0.5
   AmmoReloadDelay: 0.5
   MaxAmmo: 100
-  AutomaticReleaseOnCharged: 0
+  AutomaticReleaseOnCharged: 1
   MaxChargeDuration: 2
   AmmoUsedOnStartCharge: 1
   AmmoUsageRateWhileCharging: 2
