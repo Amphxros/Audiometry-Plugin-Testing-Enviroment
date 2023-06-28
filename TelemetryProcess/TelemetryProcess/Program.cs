@@ -120,11 +120,11 @@ namespace TelemetryProcess
             if (audiometria)
             {
                 partidasB++;
-                tiempoPartidasB += (endTime - initTime);
+                tiempoPartidasB += (endTime - initTime)/1000;
             }
             else {
                 partidasA++;
-                tiempoPartidasA += (endTime - initTime);
+                tiempoPartidasA += (endTime - initTime)/1000;
             }
 
             audiometria = false;
@@ -140,6 +140,8 @@ namespace TelemetryProcess
             {
                 deserializeFile(archivo);
             }
+
+            generateStats();
         }
 
        
