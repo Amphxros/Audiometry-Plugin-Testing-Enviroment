@@ -17,7 +17,6 @@ namespace Unity.FPS.Game
 
         private void Start()
         {
-            Debug.Log("TrackerManager Awake");
             if (Instance == null)
             {
                 Instance = this;
@@ -39,7 +38,7 @@ namespace Unity.FPS.Game
     private void setUpTracker()
     {
         string dataPath = Application.dataPath + "/" + "data/";
-        tracker = Telemetry.Tracker.Instance("Wizara", Telemetry.Persistance.PersistanceType.File, Telemetry.Serialization.SerializeType.JSON, dataPath + "WizaraTelemetry");
+        tracker = Telemetry.Tracker.Instance("AudiometryTest", Telemetry.Persistance.PersistanceType.File, Telemetry.Serialization.SerializeType.JSON, dataPath + "AudiometryTelemetry");
         tracker.init();
 
     }
