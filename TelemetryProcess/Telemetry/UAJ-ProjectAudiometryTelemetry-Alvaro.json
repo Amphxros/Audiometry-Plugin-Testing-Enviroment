@@ -1,0 +1,69 @@
+{"_eventId":0,"_timeStamp":1687977452404,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"StartTracking","Game":"AudiometryTest","User":"405e75d0-1fb0-4963-a6d3-8fa470a4918f"}}
+{"_eventId":23,"_timeStamp":1687977455124,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"PluginConfig","Frecuency":0}}
+{"_eventId":23,"_timeStamp":1687977456882,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"PluginConfig","Frecuency":10}}
+{"_eventId":23,"_timeStamp":1687977458162,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"PluginConfig","Frecuency":30}}
+{"_eventId":23,"_timeStamp":1687977459146,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"PluginConfig","Frecuency":0}}
+{"_eventId":4,"_timeStamp":1687977461016,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"GameStart"}}
+{"_eventId":22,"_timeStamp":1687977465054,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyAlert","ID":"EnemigoTorreta"}}
+{"_eventId":22,"_timeStamp":1687977468220,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyAlert","ID":"Enemy_Turret (3)"}}
+{"_eventId":22,"_timeStamp":1687977468220,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyAlert","ID":"EnemigoTorreta"}}
+{"_eventId":20,"_timeStamp":1687977469040,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977469041,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977469235,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977469235,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977469393,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977469393,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977469550,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977469550,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977469710,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977469710,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977472038,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977472038,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977473497,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977473497,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977473604,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977473604,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977475149,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977475149,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977477974,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977477974,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977479230,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977479230,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":22,"_timeStamp":1687977486978,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyAlert","ID":"Enemy_Turret (3)"}}
+{"_eventId":22,"_timeStamp":1687977486978,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyAlert","ID":"EnemigoTorreta"}}
+{"_eventId":22,"_timeStamp":1687977487140,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyAlert","ID":"EnemigoTorreta"}}
+{"_eventId":20,"_timeStamp":1687977487196,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977487196,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977487309,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977487309,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977488066,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977488066,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977488168,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977488168,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977490156,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977490156,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977491190,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977491190,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977491567,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977491567,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977491722,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977491722,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977491827,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977491827,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977491945,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977491945,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977492994,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977492994,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977493992,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977494087,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977494087,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977495863,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977495863,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977495970,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977495971,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977497190,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":20,"_timeStamp":1687977497190,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyHurt","ID":"Enemy_Turret (3)"}}
+{"_eventId":21,"_timeStamp":1687977497192,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"EnemyDead","ID":"Enemy_Turret (3)"}}
+{"_eventId":13,"_timeStamp":1687977500756,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"PlayerDead"}}
+{"_eventId":5,"_timeStamp":1687977500757,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"GameEnd"}}
+{"_eventId":1,"_timeStamp":1687977500757,"mSessionID_":"405e75d0-1fb0-4963-a6d3-8fa470a4918f","_data":{"Event":"StopTracking"}}

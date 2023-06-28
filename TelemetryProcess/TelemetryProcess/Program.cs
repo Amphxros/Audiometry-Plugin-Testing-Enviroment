@@ -73,23 +73,23 @@ namespace TelemetryProcess
                     audiometria = true;
                     break;
                 case "GunShot":
-                    if (audiometria) disparosB++;
+                    if (!audiometria) disparosB++;
                     else disparosA++;
                     break;
                 case "PlayerHurt":
-                    if (audiometria) danoRecibidoB++;
+                    if (!audiometria) danoRecibidoB++;
                     else danoRecibidoA++;
                     break;
                 case "EnemyHurt":
-                    if (audiometria) danoRealizadoB++;
+                    if (!audiometria) danoRealizadoB++;
                     else danoRealizadoA++;
                     break;
                 case "EnemyDead":
-                    if (audiometria) killsB++;
+                    if (!audiometria) killsB++;
                     else killsA++;
                     break;
                 case "EnemyAlert":
-                    if (audiometria) alertasB++;
+                    if (!audiometria) alertasB++;
                     else alertasA++;
                     break;
                 default:
@@ -117,7 +117,7 @@ namespace TelemetryProcess
                 }
             }
 
-            if (audiometria)
+            if (!audiometria)
             {
                 partidasB++;
                 tiempoPartidasB += (endTime - initTime)/1000;

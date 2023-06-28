@@ -22,3 +22,4 @@ C:\Users\Daniel\Desktop\repos\UAJ-Proyecto-final\TelemetryProcess\TelemetryProce
 C:\Users\Daniel\Desktop\repos\UAJ-Proyecto-final\TelemetryProcess\TelemetryProcess\obj\Debug\netcoreapp3.1\TelemetryProcess.csproj.CopyComplete
 C:\Users\Daniel\Desktop\repos\UAJ-Proyecto-final\TelemetryProcess\TelemetryProcess\obj\Debug\netcoreapp3.1\TelemetryProcess.dll
 C:\Users\Daniel\Desktop\repos\UAJ-Proyecto-final\TelemetryProcess\TelemetryProcess\obj\Debug\netcoreapp3.1\TelemetryProcess.pdb
+C:\Users\Daniel\Desktop\repos\UAJ-Proyecto-final\TelemetryProcess\TelemetryProcess\obj\Debug\netcoreapp3.1\TelemetryProcess.csprojAssemblyReference.cache

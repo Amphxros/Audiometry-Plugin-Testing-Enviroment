@@ -1,18 +1,18 @@
 DATOS
-Partidas: 6
-Partidas grupo A: 3
-Partidas grupo B: 3
+Partidas: 9
+Partidas grupo A: 5
+Partidas grupo B: 4
 ESTADISTICAS GRUPO A:
-Tiempo promedio: 168s
-Daño recibido promedio: 22
-Daño realizado promedio: 16
-Disparos realizados promedio: 24
-Asesinatos promedio: 12
-Alertas promedio: 1
+Tiempo promedio: 161s
+Daño recibido promedio: 0
+Daño realizado promedio: 327
+Disparos realizados promedio: 0
+Asesinatos promedio: 13
+Alertas promedio: 22
 ESTADISTICAS GRUPO B:
-Tiempo promedio: 168s
-Daño recibido promedio: 15
-Daño realizado promedio: 13
-Disparos realizados promedio: 21
-Asesinatos promedio: 9
-Alertas promedio: 1
+Tiempo promedio: 205s
+Daño recibido promedio: 0
+Daño realizado promedio: 320
+Disparos realizados promedio: 0
+Asesinatos promedio: 16
+Alertas promedio: 25
