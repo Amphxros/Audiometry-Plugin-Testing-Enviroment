@@ -3,6 +3,7 @@ using Unity.FPS.Game;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
+using Telemetry.Events.Audiometry;
 
 namespace Unity.FPS.AI
 {
@@ -242,7 +243,9 @@ namespace Unity.FPS.AI
         void OnDetectedTarget()
         {
             onDetectedTarget.Invoke();
-
+            EnemyAlertEvent enemyAlertEvent = new EnemyAlertEvent(this.gameObject.name);
+            TrackerManager.getTracker().AddGameEvent(enemyAlertEvent);
+         
             // Set the eye default color and property block if the eye renderer is set
             if (m_EyeRendererData.Renderer != null)
             {
@@ -340,9 +343,13 @@ namespace Unity.FPS.AI
 
         void OnDamaged(float damage, GameObject damageSource)
         {
+
             // test if the damage source is the player
             if (damageSource && !damageSource.GetComponent<EnemyController>())
             {
+            EnemyHurtedEvent enemyHurtedEvent = new EnemyHurtedEvent(this.gameObject.name);
+            TrackerManager.getTracker().AddGameEvent(enemyHurtedEvent);
+         
                 // pursue the player
                 DetectionModule.OnDamaged(damageSource);
                 
@@ -362,6 +369,8 @@ namespace Unity.FPS.AI
             // spawn a particle system when dying
             var vfx = Instantiate(DeathVfx, DeathVfxSpawnPoint.position, Quaternion.identity);
             Destroy(vfx, 5f);
+            EnemyDeadEvent enemyDeadEvent = new EnemyDeadEvent(this.gameObject.name);
+            TrackerManager.getTracker().AddGameEvent(enemyDeadEvent);
 
             // tells the game flow manager to handle the enemy destuction
             m_EnemyManager.UnregisterEnemy(this);

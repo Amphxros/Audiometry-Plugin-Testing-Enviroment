@@ -2,6 +2,8 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+using Telemetry.Events.Audiometry;
+
 namespace Unity.FPS.Gameplay
 {
     [RequireComponent(typeof(CharacterController), typeof(PlayerInputHandler), typeof(AudioSource))]
@@ -219,6 +221,8 @@ namespace Unity.FPS.Gameplay
         void OnDie()
         {
             IsDead = true;
+            PlayerDeadEvent playerDead = new PlayerDeadEvent();
+            TrackerManager.getTracker().AddGameEvent(playerDead);
 
             // Tell the weapons manager to switch to a non-existing weapon in order to lower the weapon
             m_WeaponsManager.SwitchToWeaponIndex(-1, true);

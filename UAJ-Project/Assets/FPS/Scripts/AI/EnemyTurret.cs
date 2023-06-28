@@ -1,6 +1,6 @@
 ﻿using Unity.FPS.Game;
 using UnityEngine;
-
+using Telemetry.Events.Audiometry;
 namespace Unity.FPS.AI
 {
     [RequireComponent(typeof(EnemyController))]
@@ -121,6 +121,8 @@ namespace Unity.FPS.AI
 
         void OnDamaged(float dmg, GameObject source)
         {
+            EnemyHurtedEvent evt = new EnemyHurtedEvent(gameObject.name);
+            TrackerManager.getTracker().AddGameEvent(evt);
             if (RandomHitSparks.Length > 0)
             {
                 int n = Random.Range(0, RandomHitSparks.Length - 1);
@@ -135,6 +137,9 @@ namespace Unity.FPS.AI
             if (AiState == AIState.Idle)
             {
                 AiState = AIState.Attack;
+                EnemyAlertEvent enemyAlertEvent = new EnemyAlertEvent(this.gameObject.name);
+                TrackerManager.getTracker().AddGameEvent(enemyAlertEvent);
+         
             }
 
             for (int i = 0; i < OnDetectVfx.Length; i++)
