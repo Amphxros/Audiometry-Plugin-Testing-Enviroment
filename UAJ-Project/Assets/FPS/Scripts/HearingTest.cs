@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using Unity.FPS.Game;
 public class HearingTest : MonoBehaviour
 {
     public static float frequency, volume;
@@ -19,6 +19,7 @@ public class HearingTest : MonoBehaviour
         volume = -20 + frequency;
         Debug.Log("frequency: " + frequency);
         Debug.Log("volume: " + volume);
+        TrackerManager.getTracker().AddGameEvent(new Telemetry.Events.Audiometry.PluginConfigEvent((int)frequency));
     }
 
     public void SetVolume()
@@ -48,7 +49,6 @@ public class HearingTest : MonoBehaviour
 
     public void Continue()
     {
-        //string scene = "MainScene";
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
      

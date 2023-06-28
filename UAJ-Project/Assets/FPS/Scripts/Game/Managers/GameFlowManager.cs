@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using Telemetry.Events.Audiometry;
 
 namespace Unity.FPS.Game
 {
@@ -42,6 +43,7 @@ namespace Unity.FPS.Game
         void Start()
         {
             AudioUtility.SetMasterVolume(1);
+            TrackerManager.getTracker().startGame();
         }
 
         void Update()
@@ -104,6 +106,9 @@ namespace Unity.FPS.Game
                 m_SceneToLoad = LoseSceneName;
                 m_TimeLoadEndGameScene = Time.time + EndSceneLoadDelay;
             }
+
+            TrackerManager.getTracker().endGame();
+            TrackerManager.getTracker().end();
         }
 
         void OnDestroy()

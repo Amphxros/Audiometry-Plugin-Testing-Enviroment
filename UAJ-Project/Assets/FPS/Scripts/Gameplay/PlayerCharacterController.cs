@@ -197,6 +197,8 @@ namespace Unity.FPS.Gameplay
                     float dmgFromFall = Mathf.Lerp(FallDamageAtMinSpeed, FallDamageAtMaxSpeed, fallSpeedRatio);
                     m_Health.TakeDamage(dmgFromFall, null);
 
+                    TrackerManager.getTracker().AddGameEvent(new Telemetry.Events.Audiometry.PlayerHurtedEvent());
+
                     // fall damage SFX
                     AudioSource.PlayOneShot(FallDamageSfx);
                 }
