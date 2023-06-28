@@ -19,7 +19,7 @@ public class HearingTest : MonoBehaviour
         volume = -20 + frequency;
         Debug.Log("frequency: " + frequency);
         Debug.Log("volume: " + volume);
-        TrackerManager.getTracker().AddGameEvent(new Telemetry.Events.Audiometry.PluginConfigEvent((int)frequency));
+        TrackerManager.Instance.getTracker().AddGameEvent(new Telemetry.Events.Audiometry.PluginConfigEvent((int)frequency));
     }
 
     public void SetVolume()

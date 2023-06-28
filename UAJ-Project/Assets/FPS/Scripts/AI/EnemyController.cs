@@ -10,6 +10,7 @@ namespace Unity.FPS.AI
     [RequireComponent(typeof(Health), typeof(Actor), typeof(NavMeshAgent))]
     public class EnemyController : MonoBehaviour
     {
+
         [System.Serializable]
         public struct RendererIndexData
         {
@@ -243,8 +244,9 @@ namespace Unity.FPS.AI
         void OnDetectedTarget()
         {
             onDetectedTarget.Invoke();
-            EnemyAlertEvent enemyAlertEvent = new EnemyAlertEvent(this.gameObject.name);
-            TrackerManager.getTracker().AddGameEvent(enemyAlertEvent);
+            EnemyAlertEvent enemyAlertEvent = new EnemyAlertEvent("EnemigoTorreta");
+            //Telemetry.Tracker tracker = TrackerManager.getTracker();
+            TrackerManager.Instance.getTracker().AddGameEvent(enemyAlertEvent);
          
             // Set the eye default color and property block if the eye renderer is set
             if (m_EyeRendererData.Renderer != null)
@@ -348,7 +350,7 @@ namespace Unity.FPS.AI
             if (damageSource && !damageSource.GetComponent<EnemyController>())
             {
             EnemyHurtedEvent enemyHurtedEvent = new EnemyHurtedEvent(this.gameObject.name);
-            TrackerManager.getTracker().AddGameEvent(enemyHurtedEvent);
+            TrackerManager.Instance.getTracker().AddGameEvent(enemyHurtedEvent);
          
                 // pursue the player
                 DetectionModule.OnDamaged(damageSource);
@@ -370,7 +372,7 @@ namespace Unity.FPS.AI
             var vfx = Instantiate(DeathVfx, DeathVfxSpawnPoint.position, Quaternion.identity);
             Destroy(vfx, 5f);
             EnemyDeadEvent enemyDeadEvent = new EnemyDeadEvent(this.gameObject.name);
-            TrackerManager.getTracker().AddGameEvent(enemyDeadEvent);
+            TrackerManager.Instance.getTracker().AddGameEvent(enemyDeadEvent);
 
             // tells the game flow manager to handle the enemy destuction
             m_EnemyManager.UnregisterEnemy(this);

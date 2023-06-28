@@ -43,7 +43,7 @@ namespace Unity.FPS.Game
         void Start()
         {
             AudioUtility.SetMasterVolume(1);
-            TrackerManager.getTracker().startGame();
+            TrackerManager.Instance.getTracker().startGame();
         }
 
         void Update()
@@ -107,8 +107,8 @@ namespace Unity.FPS.Game
                 m_TimeLoadEndGameScene = Time.time + EndSceneLoadDelay;
             }
 
-            TrackerManager.getTracker().endGame();
-            TrackerManager.getTracker().end();
+            TrackerManager.Instance.getTracker().endGame();
+            TrackerManager.Instance.getTracker().end();
         }
 
         void OnDestroy()

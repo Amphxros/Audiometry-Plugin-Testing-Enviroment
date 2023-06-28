@@ -197,7 +197,7 @@ namespace Unity.FPS.Gameplay
                     float dmgFromFall = Mathf.Lerp(FallDamageAtMinSpeed, FallDamageAtMaxSpeed, fallSpeedRatio);
                     m_Health.TakeDamage(dmgFromFall, null);
 
-                    TrackerManager.getTracker().AddGameEvent(new Telemetry.Events.Audiometry.PlayerHurtedEvent());
+                    TrackerManager.Instance.getTracker().AddGameEvent(new Telemetry.Events.Audiometry.PlayerHurtedEvent());
 
                     // fall damage SFX
                     AudioSource.PlayOneShot(FallDamageSfx);
@@ -224,7 +224,7 @@ namespace Unity.FPS.Gameplay
         {
             IsDead = true;
             PlayerDeadEvent playerDead = new PlayerDeadEvent();
-            TrackerManager.getTracker().AddGameEvent(playerDead);
+            TrackerManager.Instance.getTracker().AddGameEvent(playerDead);
 
             // Tell the weapons manager to switch to a non-existing weapon in order to lower the weapon
             m_WeaponsManager.SwitchToWeaponIndex(-1, true);

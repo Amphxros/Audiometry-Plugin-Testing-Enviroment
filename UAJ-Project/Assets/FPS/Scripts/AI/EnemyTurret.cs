@@ -122,7 +122,7 @@ namespace Unity.FPS.AI
         void OnDamaged(float dmg, GameObject source)
         {
             EnemyHurtedEvent evt = new EnemyHurtedEvent(gameObject.name);
-            TrackerManager.getTracker().AddGameEvent(evt);
+            TrackerManager.Instance.getTracker().AddGameEvent(evt);
             if (RandomHitSparks.Length > 0)
             {
                 int n = Random.Range(0, RandomHitSparks.Length - 1);
@@ -138,7 +138,7 @@ namespace Unity.FPS.AI
             {
                 AiState = AIState.Attack;
                 EnemyAlertEvent enemyAlertEvent = new EnemyAlertEvent(this.gameObject.name);
-                TrackerManager.getTracker().AddGameEvent(enemyAlertEvent);
+                TrackerManager.Instance.getTracker().AddGameEvent(enemyAlertEvent);
          
             }
 
