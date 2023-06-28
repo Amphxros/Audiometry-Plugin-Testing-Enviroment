@@ -485,7 +485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: MainScene
-  AudiometryEnabled: 1
+  AudiometryEnabled: 0
 --- !u!1 &160263376
 GameObject:
   m_ObjectHideFlags: 0

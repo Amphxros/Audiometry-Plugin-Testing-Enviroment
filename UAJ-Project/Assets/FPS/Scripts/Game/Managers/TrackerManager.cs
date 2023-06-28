@@ -37,7 +37,7 @@ namespace Unity.FPS.Game
 
     private void setUpTracker()
     {
-        string dataPath = Application.dataPath + "/" + "data/";
+        string dataPath = Application.persistentDataPath;
         tracker = Telemetry.Tracker.Instance("AudiometryTest", Telemetry.Persistance.PersistanceType.File, Telemetry.Serialization.SerializeType.JSON, dataPath + "AudiometryTelemetry");
         tracker.init();
 
